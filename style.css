@@ -1,0 +1,64 @@
+        body {
+        text-align: center;
+        background-color: aqua;
+        }
+
+        h2 {
+        text-decoration: overline underline;
+        font-size: 35px;
+        text-decoration-color: blueviolet;
+        font-weight: bold;
+        }
+
+        h1 {
+        font-size: 25px;
+        font-weight: bold;
+        }
+        .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+        }
+
+        .prev,
+        .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        }
+
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        .prev {
+        left: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        .prev:hover,
+        .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        }
+        img{
+        width: 300px;
+        height: auto;
+        }
